@@ -67,15 +67,16 @@
 }
 
 .search-button,
-.voice-search-button {
+.voice-search-button,
+.upload-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.search-button .tooltips,
-.voice-search-button .tooltips {
+.tooltips {
+    font-family: Roboto, Arial;
     position: absolute;
     background-color: gray;
     color: white;
@@ -89,8 +90,7 @@
     white-space: nowrap;
 }
 
-.search-button:hover .tooltips,
-.voice-search-button:hover .tooltips {
+.tooltip-mother:hover .tooltips {
     opacity: 1;
 }
 
